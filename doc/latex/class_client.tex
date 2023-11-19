@@ -1,0 +1,43 @@
+\doxysection{Client Class Reference}
+\hypertarget{class_client}{}\label{class_client}\index{Client@{Client}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_client_a163113b9c3fda23dcdc750db9278afbe}{Client}} (String host, int port)  throws Unknown\+Host\+Exception, IOException 
+\item 
+String \mbox{\hyperlink{class_client_ab26831c395da92b5893066f9ce7963a4}{send}} (String request)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_client_ac9fec818083d641b633a8e4a75d981a7}{main}} (String argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_client_a163113b9c3fda23dcdc750db9278afbe}\label{class_client_a163113b9c3fda23dcdc750db9278afbe} 
+\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{Client()}{Client()}}
+{\footnotesize\ttfamily Client.\+Client (\begin{DoxyParamCaption}\item[{String}]{host,  }\item[{int}]{port }\end{DoxyParamCaption}) throws Unknown\+Host\+Exception, IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Initialise la connexion. Renvoie une exception en cas d\textquotesingle{}erreur. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_client_ac9fec818083d641b633a8e4a75d981a7}\label{class_client_ac9fec818083d641b633a8e4a75d981a7} 
+\index{Client@{Client}!main@{main}}
+\index{main@{main}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void Client.\+main (\begin{DoxyParamCaption}\item[{String}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Lit une requete depuis le Terminal, envoie cette requete au serveur, recupere sa reponse et l\textquotesingle{}affiche sur le Terminal. Noter que le programme bloque si le serveur ne repond pas. \Hypertarget{class_client_ab26831c395da92b5893066f9ce7963a4}\label{class_client_ab26831c395da92b5893066f9ce7963a4} 
+\index{Client@{Client}!send@{send}}
+\index{send@{send}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{send()}{send()}}
+{\footnotesize\ttfamily String Client.\+send (\begin{DoxyParamCaption}\item[{String}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Envoie une requete au server et retourne sa reponse. Noter que la methode bloque si le serveur ne repond pas. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Client.\+java\end{DoxyCompactItemize}
